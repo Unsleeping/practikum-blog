@@ -20,3 +20,16 @@ def index(request):
 
     # и возвращаем его
     return resp
+
+
+# для url accounts/sign-up
+def sign_up(request): 
+    return HttpResponse('<h1>Страница регистрации</h1>')
+
+# для url accounts/sign-in
+def sign_in(request): 
+    return HttpResponse('<h1>Страница авторизации</h1>')
+
+# для url accounts/my-account
+def my_account(request): 
+    return HttpResponse('<h1>Данные вашего аккаунта</h1>')
