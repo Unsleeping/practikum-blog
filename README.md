@@ -1,0 +1,2 @@
+# practikum-blog
+Django practice
